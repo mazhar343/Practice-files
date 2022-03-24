@@ -1,0 +1,34 @@
+ul{
+    background-color: #f7f7f7;
+    width: 360px;
+    margin: 100px auto;
+}/*
+li:nth-child(2n){
+    background-color: white;
+}*/
+
+li:last-child{
+    background-color: white;
+
+}
+li:first-child{
+    background-color: white;
+}
+
+/*
+p{
+    text-transform: uppercase ;
+}
+
+p::first-line{
+    text-transform: uppercase ;
+}
+
+p:last-line(){
+    text-transform: uppercase ;
+}*/
+
+p::first-letter{
+    text-transform: lowercase ; /* also can do upper case*/
+}
+

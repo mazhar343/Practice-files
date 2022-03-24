@@ -1,0 +1,69 @@
+/*a:hover{
+    background: black;
+    color: white;
+}
+
+
+a:active{
+    background: black;
+    color: white;
+}
+
+
+a:visited{
+    background: black;
+    color: white;
+}*/
+img{
+    width: 50%;
+    height: 50%;
+}/*
+
+body{
+    background: #43982f;
+}
+#wrapper{
+    margin: 0 auto;
+    background: white;
+    width: 800px;
+    height: 1000px;
+}/*
+header{
+    padding: 0px 0px 10px 0px;
+
+}
+#horzNav:hover{
+    display: block;
+    background: black;
+    columns: white;
+}
+
+#para1{
+word-spacing: 10px;
+
+}
+
+#para2{
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    }
+footer{
+background-color: black;
+color: white;
+clear: both;
+
+}
+ul{
+    list-style: none;
+}
+ul{
+    list-style: lower-greek;
+    list-style-position: outside ;
+    }
+*/
+
+#para1::after{
+    content:' @@@@@@@@';
+} /* also can use for before */
+
+  

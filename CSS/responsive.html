@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .menu{
+            float: left;
+            width: 20%;
+            text-align:center;
+        }
+        .menu a{
+            background-color: #19c591;
+            padding: 10px;
+            margin-top: 7px;
+            display:block;
+            width: 100%;
+            color: rgb(250, 246, 2);
+        }
+        .main {
+            float: left;
+            width: 40%;
+            padding: 0 20px;
+        }
+        .right {
+            background-color: #f0b569;
+            float:right;
+            width: 40%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;            
+        }
+        @media only screen and (max-width:620px){
+            .menu,
+            .main,
+            .right {
+                width: 100%;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body style="font-family: Verdana; color: #0f0f0f;">
+    <div style="background-color: #4168bd;padding: 15px;text-align: center;">
+        <h1>Welcome to Edureka</h1>
+    </div>
+    <div style="overflow:auto;">
+        <div class="menu">
+            <a href="https://www.edureka.co/data-science-certification-courses">Data Sciencce</a>
+            <a href="www.edureka.co/big-data">Big Data</a>
+            <a href="www.edureka.co/dloud-computing">Cloud Computing</a>
+            <a href="www.edureka.co/full-stack-developer">Full Stack Developer</a>
+        </div>
+        <div class="main">
+            <h2>Edureka !</h2>
+            <p>Your one stop solution to trending technologies</p>
+        </div>
+        <div class="right">
+            <h2>About</h2>
+            <p>Edureka is an online training paltform that offers 
+                <br>data Cloud computing Data science full stack development 
+                and blockchain</p>
+        </div>
+    </div>
+    <div style="background-color: #96ebf7;text-align: center;padding: 10px;margin: top 7px;">@ edureka.co</div>
+</body>
+</html>
